@@ -403,6 +403,9 @@ a:hover {
 .about-us-information-detail p {
   padding-left: 40px;
 }
+.about-us-information-detail ul {
+  padding-left: 40px;
+}
 
 .about-us-information-detail p:nth-child(2) {
   font-weight: 500;
