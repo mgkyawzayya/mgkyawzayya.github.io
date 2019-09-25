@@ -1,0 +1,96 @@
+@media (max-width: 768px) {
+	.navbar .navbar-nav .nav-link {
+		text-align: center;
+		margin: 7px 5px;
+	}
+	.navbar .navbar-collapse {
+	    overflow: auto;
+	    background: #111;
+	    text-align: center;
+	    padding: 10px 0;
+	}
+	.nav-collapse {
+		background: #fff !important;
+	}
+	.navbar-toggler {
+		color: #fff;
+	}
+	.nav-toggler {
+		color: #111 !important;
+	}
+	.caption-intro {
+	    padding-top: 150px;
+	    padding-bottom: 70px;
+	}
+	.caption-intro h4 {
+		font-size: 18px;
+	}
+	.cd-headline {
+    	font-size: 30px;
+	}
+	.about-us-text {
+		padding-top: 40px;
+	    padding-left: 0px; 
+	}
+	.skills {
+		padding-bottom: 20px;
+	}
+	.cta-main-detail p:nth-child(1) {
+    	font-size: 25px;
+	}
+	.blog-box {
+		margin-bottom: 80px;
+	}
+	#blog {
+    	padding-bottom: 40px;
+	}
+	#contact .detail-contact {
+    	width: 100%; 
+	}
+	.footer-detail {
+		padding-bottom: 40px;
+	}
+	.blog-box-title {
+		height: 40px;
+	}
+}
+
+@media (max-width: 450px) {
+	.cd-headline {
+    	font-size: 25px;
+	}
+  	#contact .detail-contact {
+    	width: 100%; 
+	}
+	.work-detail .filtering span {
+	    padding: 6px 15px;
+	}
+	.footer-detail {
+		padding-bottom: 40px;
+	}
+	.blog-box-title {
+		height: 55px;
+	}
+}
+
+@media (max-width: 400px) {
+	.about-us-information-cta a:nth-child(1) {
+		padding: 8px 25px;
+	}
+	.about-us-information-cta a:nth-child(2) {
+		padding: 8px 20px;
+	}
+	.work-detail .filtering span {
+  		font-size: 14px;
+	    margin: 0 3px;
+	    padding: 3px 10px;
+  	}
+  	.blog-box {
+		height: 360px;
+	}
+}
+@media (min-width: 1024px) and (max-width: 1200px) {
+	.blog-box {
+		height: 360px;
+	}
+}
