@@ -350,7 +350,7 @@ a:hover {
 /* About CSS */
 #about-us {
   padding-top: 90px;
-  padding-bottom: 70px;
+  padding-bottom: 30px;
 }
 
 .about-us-img {
@@ -458,132 +458,6 @@ a:hover {
 /* End About CSS*/
 
 
-/* Skill CSS */
-#skills {
-  padding-top: 40px;
-  padding-bottom: 50px;
-}
-
-.skills .skill-item {
-  margin-bottom: 20px;
-}
-
-.skills .skill-item:last-child {
-  margin-bottom: 0;
-}
-
-.skills .skill-item h5 {
-  font-size: 14px;
-  font-weight: 500;
-  margin-bottom: 10px;
-}
-
-.skills .skill-item-progress {
-  width: 100%;
-  height: 16px;
-  border: 2px solid #f4f5f8;
-  background: #f4f5f8;
-  border-radius: 20px;
-  position: relative;
-}
-
-.skills .skill-item-progress .progres {
-  position: absolute;
-  height: 100%;
-  width: 10%;
-  left: 0;
-  top: 0;
-  background: #212529;
-  border-radius: 20px;
-  -webkit-transition: all 1.5s;
-  transition: all 1.5s;
-}
-
-.skills .skill-item-progress .progres:before {
-  content: attr(data-value);
-  padding: 3px 10px 2px;
-  border-radius: 10px;
-  font-size: 10px;
-  color: #fff;
-  background: #333;
-  position: absolute;
-  top: -35px;
-  right: 0;
-}
-
-.skills .skill-item-progress .progres:after {
-  content: "";
-  width: 0;
-  height: 0;
-  border-left: 3px solid transparent;
-  border-right: 3px solid transparent;
-  border-top: 5px solid #333;
-  position: absolute;
-  top: -12px;
-  right: 15px;
-}
-
-/* End Skill CSS*/
-
-/* Contact */
-#contact {
-  background: #f4f5f8;
-  padding-top: 90px;
-  padding-bottom: 60px;
-}
-
-.contact-title p {
-  text-align: center;
-  font-size: 40px;
-  font-weight: 700;
-}
-
-.detail-contact {
-  padding-top: 40px;
-}
-
-.detail-contact .form-control {
-  margin-bottom: 15px;
-  height: 50px;
-  border: medium none;
-  border-radius: 8px;
-  box-shadow: 0 15px 30px rgba(102, 113, 228, 0.13);
-}
-
-.detail-contact textarea.form-control {
-  height: 200px;
-  resize: none;
-}
-
-.detail-contact ::placeholder {
-  color: #a2a1a1;
-}
-
-.detail-contact .btn {
-  color: #fff;
-  font-size: 15px;
-  background: #212529;
-  padding: 11px 40px;
-  border-radius: 50px;
-  font-weight: 500;
-  margin-top: 40px;
-  border: 1px solid #212529;
-  transition: 1s;
-}
-
-.detail-contact .btn:hover {
-  color: #212529;
-  background: transparent;
-}
-
-#contact .detail-contact {
-  width: 80%;
-  margin: 0 auto;
-}
-
-/* End Contact*/
-
-
 /* Footer */
 #footer {
   background-size: cover;
@@ -591,8 +465,8 @@ a:hover {
   background-attachment: fixed;
   color: #fff;
   text-align: center;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
 
 .footer-detail i {
