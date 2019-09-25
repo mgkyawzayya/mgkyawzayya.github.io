@@ -272,7 +272,7 @@ a:hover {
 
 /* Intro CSS */
 #intro-area {
-  background: url(../img/background.jpg) no-repeat fixed center;
+  background: url(../img/company.jpg) no-repeat fixed center;
   background-size: cover;
   z-index: -1;
 }
